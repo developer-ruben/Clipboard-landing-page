@@ -1,0 +1,53 @@
+// CONTAINER
+
+.container {
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+
+  @media screen and (max-width: $desktop) {
+    padding: 0 3.2rem;
+  }
+}
+
+// SECTION
+
+.section {
+  &__header {
+    margin-bottom: 8rem;
+    text-align: center;
+
+    @media screen and (max-width: $mobile) {
+      margin-bottom: 6.5rem;
+    }
+  }
+  &__title {
+    margin-bottom: 1.9rem;
+
+    @media screen and (max-width: $mobile) {
+      margin-bottom: 1.6rem;
+    }
+  }
+  &__text {
+    max-width: 730px;
+    margin: 0 auto;
+
+    font-size: $body-m-font-size;
+    letter-spacing: $body-m-letter-spacing;
+
+    @media screen and (max-width: $mobile) {
+      font-size: 1.6;
+      line-height: 2.6rem;
+      letter-spacing: 0.12px;
+    }
+  }
+  &__buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1.6rem;
+
+    @media screen and (max-width: $mobile) {
+      flex-direction: column;
+    }
+  }
+}

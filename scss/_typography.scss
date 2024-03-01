@@ -1,0 +1,40 @@
+h1,
+h2,
+h3 {
+  color: $color-neutral-dark-grayish-blue;
+  line-height: 1;
+}
+
+h1 {
+  font-size: $heading-xl-size;
+  letter-spacing: $heading-xl-letter-spacing;
+
+  @media screen and (max-width: $mobile) {
+    font-size: 3.2rem;
+    letter-spacing: -0.25px;
+  }
+}
+
+h2 {
+  font-size: $heading-l-size;
+  letter-spacing: $heading-l-letter-spacing;
+
+  @media screen and (max-width: $mobile) {
+    font-size: 2.8rem;
+    letter-spacing: -0.46px;
+  }
+}
+
+h3 {
+  font-size: $heading-m-size;
+  letter-spacing: $heading-m-letter-spacing;
+
+  @media screen and (max-width: $mobile) {
+    font-size: 2.4rem;
+    letter-spacing: -0.39px;
+  }
+}
+
+a {
+  text-decoration: none;
+}
