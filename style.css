@@ -206,6 +206,7 @@ p {
   margin-left: auto;
   padding: 5.6rem 0 9.8rem 0;
   max-width: 350px;
+  margin-right: 9.5rem;
 }
 
 .snippet__title {
@@ -457,6 +458,7 @@ p {
     margin-left: unset;
     padding: 0;
     text-align: center;
+    margin-right: 0;
   }
 
   .features-section__grid {
